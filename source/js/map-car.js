@@ -19,7 +19,7 @@
 function createMarker(latlng, label, html) {
 
     var contentString = '<b>'+'A rom dom dom (づ ◕‿◕ )づ'+'</b><br>';	   // text visible when you click on the image
-	var image = 'img/car-icon.png';   //image 
+	var image = 'https://i.ibb.co/J2Fx5PK/car-icon.png';   //image 
     var marker = new google.maps.Marker({
         position: latlng,
         map: map,
